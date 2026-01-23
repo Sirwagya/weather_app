@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="search">
+            <input type="City" id="cityInput" placeholder="Search City" onkeypress="handleKeyPress(event)">
+            <button type="submit">Search</button>
+            <div class="btn" onclick="searchWeather()">
+                <img src="./icons/magnifying-glass.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <div class="error-message" id="errorMessage"></div>
+
+    
+    <div class="weather-widget">
+        <div class="main-grid" id="weatherDisplay">
+            <div class="left-section">
+                <div class="top-left">
+                    <div class="city-info">
+                        <div class="city-name" id="cityName">Pune</div>
+                        <div class="region" id="region">Maharashtra, India</div>
+                    </div>
+                    <div class="date-info">
+                        <div class="date-day" id="dateDay">23</div>
+                        <div class="date-month" id="dateMonth">JAN</div>
+                    </div>
+                </div>
+                <div class="bottom-left">
+                    <div class="temp-section">
+                        <div class="temperature">
+                            <span id="tempValue">23</span><sup>°</sup>
+                        </div>
+                        <div class="temp-label">Celcius</div>
+                    </div>
+                    <div class="time-section">
+                        <div class="time-display">
+                            <div class="time-hour" id="timeHour">09</div>
+                            <div class="time-minute" id="timeMinute">00</div>
+                        </div>
+                        <div class="time-label">Time</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="icon-section">
+                    <div class="weather-icon-box">
+                        <img id="weatherIcon" src="" alt="Weather Icon" style="display: none;">
+                        <span id="iconPlaceholder">Weather Icon</span>
+                    </div>
+                </div>
+                <div class="condition-section">
+                    <div class="condition-text" id="conditionText">MOSTLY CLOUDY</div>
+                    <div class="coordinates">
+                        <p>LAT: <span id="latitude"></span></p>
+                        <p>LON: <span id="longitude"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h1 class="heading">Weather</h1>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
