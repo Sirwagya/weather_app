@@ -2,8 +2,6 @@
 
 A minimalist, brutalist-themed weather application that displays current weather information for any city.
 
-![Weather App Preview](icons/Screenshot%202026-01-23%20at%2010.55.50%20AM.png)
-
 ## Features
 
 - 🌡️ Real-time temperature display in Celsius
