@@ -19,19 +19,18 @@ body {
 }
 
 .heading {
-    color: white;
     text-align: center;
     padding: 1.25rem;
     font-size: 25vw;
-    color: rgb(81, 81, 81);
+    color: rgb(51, 51, 51);
     position: fixed;
-    bottom: -28%;
+    bottom: -20%;
     left: 0%;
     z-index: -1;
 }
 
 .search {
-    margin: 1.25rem;
+    margin: 3rem;
     display: flex;
 }
 
@@ -66,7 +65,7 @@ body {
 
 /* Brutalist Weather Widget */
 .weather-widget {
-    margin: 0.625rem 1.25rem;
+    margin-top: 3rem;
     max-width: 53rem;
     width: 80%;
 }
