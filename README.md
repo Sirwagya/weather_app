@@ -25,26 +25,22 @@ A minimalist, brutalist-themed weather application that displays current weather
 ### Prerequisites
 
 - A modern web browser
-- WeatherAPI key (get one free at [weatherapi.com](https://www.weatherapi.com/))
 
 ### Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/yourusername/weather_app.git
+   git clone https://github.com/Sirwagya/weather_app.git
    ```
 
 2. Navigate to the project folder:
+
    ```bash
    cd weather_app
    ```
 
-3. Create a `.env` file and add your API key:
-   ```
-   Weather_Api = your_api_key_here
-   ```
-
-4. Open `index.html` in your browser or use a live server.
+3. Open `index.html` in your browser or use a live server.
 
 ## Project Structure
 
@@ -53,7 +49,6 @@ weather_app/
 ├── index.html      # Main HTML file
 ├── style.css       # Stylesheet
 ├── script.js       # JavaScript logic
-├── .env            # API key (not tracked)
 ├── .gitignore      # Git ignore rules
 └── icons/          # Icon assets
 ```
