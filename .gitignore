@@ -10,7 +10,7 @@
 .Spotlight-V100
 .Trashes
 Thumbs.db
-
+.gitignore
 # IDE/Editor folders
 .vscode/
 .idea/
